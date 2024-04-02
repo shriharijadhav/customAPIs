@@ -61,6 +61,9 @@ app.use('/api/v1', getKfcMenuDetails);
 const getPharmEasyHomepageData = require('./routes/getPharmEasyHomepageData.js');
 app.use('/api/v1', getPharmEasyHomepageData);
 
+const getPharmEasyBuyProductsData = require('./routes/getPharmEasyBuyProductsData.js');
+app.use('/api/v1', getPharmEasyBuyProductsData);
+
 // for resume download
 
 // Serve the static files from the 'public' folder in your React app
