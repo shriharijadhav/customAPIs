@@ -64,6 +64,11 @@ app.use('/api/v1', getPharmEasyHomepageData);
 const getPharmEasyBuyProductsData = require('./routes/getPharmEasyBuyProductsData.js');
 app.use('/api/v1', getPharmEasyBuyProductsData);
 
+
+
+const getAllProductsData = require('./routes/getAllProductsData.js');
+app.use('/api/v1', getAllProductsData);
+
 // for resume download
 
 // Serve the static files from the 'public' folder in your React app
